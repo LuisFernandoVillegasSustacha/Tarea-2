@@ -1,48 +1,66 @@
 
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Tarea 2</title> 
-</head> 
-<body> 
-    <!DOCTYPE html> 
-<html lang="es"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Encuesta</title> 
-    <script defer src="./js/script.js"></script> 
-</head> 
-<body> 
-    <form action="#"> 
-        <p>1. ¿Cuál es tu nombre?</p> 
-        <input type="text" id="nombre"/> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
 
-        <p>2. ¿Cuál es tu comida favorita?</p> 
-        <input type="text" id="nombre del juego"> 
+    <form action="#">
+        <p>1. ¿Cuál es tu género de videojuego favorito?</p>
+        <select id="pregunta1">
+            <option value="">Selecciona</option>
+            <option value="Acción">Acción</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Estrategia">Estrategia</option>
+        </select>
 
-        <p>3. ¿Qué actividad te gusta realizar en tu tiempo libre?</p> 
-        <input type="text" id="recomendacion del juego"> 
+        <p>2. ¿Con qué frecuencia juegas videojuegos?</p>
+        <select id="pregunta2">
+            <option value="">Selecciona</option>
+            <option value="Todos los días">Todos los días</option>
+            <option value="Algunas veces por semana">Algunas veces por semana</option>
+            <option value="Pocas veces">Pocas veces</option>
+        </select>
 
-        <p>4. ¿Te gustaría aprender una nueva habilidad?</p> 
-        <select id="recomendaria"> 
-            <option value="">Selecciona</option> 
-            <option value="Sí">Sí</option> 
-            <option value="No">No</option> 
-            <option value="Tal vez">Tal vez</option> 
-        </select> 
+        <p>3. ¿Qué género musical prefieres?</p>
+        <select id="pregunta3">
+            <option value="">Selecciona</option>
+            <option value="Pop">Pop</option>
+            <option value="Rock">Rock</option>
+            <option value="Reguetón">Reguetón</option>
+            <option value="Electrónica">Electrónica</option>
+        </select>
 
-        <br><br> 
-        <button id="boton">Enviar</button> 
-    </form> 
+        <p>4. ¿Cuándo escuchas música?</p>
+        <select id="pregunta4">
+            <option value="">Selecciona</option>
+            <option value="Cuando estudio">Cuando estudio</option>
+            <option value="En mi tiempo libre">En mi tiempo libre</option>
+            <option value="Cuando hago ejercicio">Cuando hago ejercicio</option>
+            <option value="Todo el día">Todo el día</option>
+        </select>
 
-    <h2 id="respuesta"></h2> 
-</body> 
-</html> 
-</body> 
+        <p>5. ¿Qué prefieres hacer en tu tiempo libre?</p>
+        <select id="pregunta5">
+            <option value="">Selecciona</option>
+            <option value="Jugar videojuegos">Jugar videojuegos</option>
+            <option value="Escuchar música">Escuchar música</option>
+            <option value="Ver películas">Ver películas</option>
+            <option value="Salir con amigos">Salir con amigos</option>
+        </select>
+
+        <br><br>
+
+        <button id="boton">Enviar</button>
+    </form>
+
+    <h2 id="respuesta"></h2>
+
+</body>
 </html>
-
-
 
