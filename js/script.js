@@ -1,4 +1,5 @@
 
+
 let pregunta1 = document.getElementById("pregunta1");
 let pregunta2 = document.getElementById("pregunta2");
 let pregunta3 = document.getElementById("pregunta3");
@@ -13,31 +14,27 @@ btn.addEventListener("click", (event) => {
 
     let puntaje = 0;
 
-    if (pregunta1.value == "Acción") {
+    if (pregunta1.value == "HTML") {
         puntaje = puntaje + 20;
     }
 
-    if (pregunta2.value == "Todos los días") {
+    if (pregunta2.value == "JavaScript") {
         puntaje = puntaje + 20;
     }
 
-    if (pregunta3.value == "Rock") {
+    if (pregunta3.value == "let") {
         puntaje = puntaje + 20;
     }
 
-    if (pregunta4.value == "En mi tiempo libre") {
+    if (pregunta4.value == "<a>") {
         puntaje = puntaje + 20;
     }
 
-    if (pregunta5.value == "Escuchar música") {
+    if (pregunta5.value == "//") {
         puntaje = puntaje + 20;
     }
 
-    resultado.innerHTML =
-        "Tu puntaje es: " + puntaje + " / 100";
-
-    console.log(resultado.innerHTML);
+    resultado.innerHTML = "Puntaje: " + puntaje + " / 100";
 });
-
 
 
