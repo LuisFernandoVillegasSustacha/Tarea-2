@@ -1,4 +1,4 @@
-```javascript
+
 let pregunta1 = document.getElementById("pregunta1");
 let pregunta2 = document.getElementById("pregunta2");
 let pregunta3 = document.getElementById("pregunta3");
@@ -38,6 +38,6 @@ btn.addEventListener("click", (event) => {
 
     console.log(resultado.innerHTML);
 });
-```
+
 
 
